@@ -1,4 +1,5 @@
 import requests
 
-res = requests.get('http://www.google.com/')
-print(res)
+url = "https://raw.githubusercontent.com/phousanakhan/CMPUT404_Lab1/main/requestScript.py"
+res = requests.get(url)
+print(res.text)
